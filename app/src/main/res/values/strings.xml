@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Delivery Application</string>
+    <string name="signup_description">Create Account</string>
+    <string name="signup">Sign Up</string>
+    <string name="signup_name">Name</string>
+    <string name="signup_last_name">Last Name</string>
+    <string name="signup_phone">Phone</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_confirm_password">Confirm Password</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="login_description">Login</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="dpes_not_have_account">Doesn\'t Have Account ?</string>
+    <string name="or">OR</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <!-- phone number area codes -->
+    <string-array name="country_codes">
+        <item>+1</item>
+        <item>+213</item>
+    </string-array>
+
+</resources>

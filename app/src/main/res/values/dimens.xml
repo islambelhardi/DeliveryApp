@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="iconSmall" type="dimen">24dp</item>
+    <item name="iconMedium" type="dimen">48dp</item>
+    <item name="iconLarge" type="dimen">72dp</item>
+    <item name="iconXLarge" type="dimen">96dp</item>
+    <item name="paddingSmall" type="dimen">8dp</item>
+    <item name="paddingMedium" type="dimen">16dp</item>
+    <item name="paddingLarge" type="dimen">24dp</item>
+    <item name="paddingXLarge" type="dimen">32dp</item>
+    <item name="paddingXXLarge" type="dimen">48dp</item>
+</resources>
