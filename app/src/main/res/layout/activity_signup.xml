@@ -115,6 +115,7 @@
             android:src="@drawable/ic_phone"
             android:importantForAccessibility="no" />
         <Spinner
+            android:id="@+id/country_spinner"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:layout_marginHorizontal="@dimen/paddingSmall"
@@ -125,7 +126,9 @@
             android:layout_width="match_parent"
             android:hint="@string/signup_phone"
             android:layout_height="48dp"
-            tools:ignore="VisualLintTextFieldSize" />
+            tools:ignore="VisualLintTextFieldSize"
+            android:inputType="phone"
+            />
     </LinearLayout>
 
     <Button
