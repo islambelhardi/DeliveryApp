@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingVertical="@dimen/paddingMedium">
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="@dimen/iconXLarge"
+        android:layout_height="@dimen/iconXLarge"
+        android:contentDescription="@string/signup"
+        android:paddingEnd="@dimen/paddingMedium"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <ImageButton
+        style="@style/Widget.Material3.Button.IconButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shopping_cart_24" />
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingEnd="@dimen/paddingSmall"
+        android:text="Amebd" />
+
+    <!-- Horizontal LinearLayout for price and price per unit -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/paddingMedium">
+
+        <TextView
+            android:id="@+id/itemPriceTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0 DZD" />
+
+        <TextView
+            android:id="@+id/priceValue"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:text="1 * " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/iconMedium"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/paddingSmall">
+
+        <Button
+            android:id="@+id/incrementButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/itemCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/decrementButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+    </LinearLayout>
+</LinearLayout>
